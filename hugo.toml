@@ -1,0 +1,8 @@
+baseURL = "https://paolabovero.com/"
+languageCode = "it-it"
+title = "Paola Bovero"
+
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "Sito ufficiale di Paola Bovero"
