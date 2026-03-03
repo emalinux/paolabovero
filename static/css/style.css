@@ -5,116 +5,115 @@ body {
     color: #333;
   }
 
-  .container {
-    max-width: 1100px;
+.container {
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 32px;
   }
 
-  .handwriting {
+.handwriting {
     font-family: 'Great Vibes', cursive;
     font-size: 1.6rem;
   }
 
-  .site-header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    padding: 20px 40px;
-    z-index: 10;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .nav-links a {
-    font-family: 'Cormorant Garamond', serif;
-  }
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 249, 236, 0.7);
+  backdrop-filter: blur(8px);
+  padding: 18px 0;
+}
 
-  .nav-links a {
-    margin-left: 25px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 300;
-  }
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .logo {
-    color: var(--accent-gold);
-    font-size: 0.8rem;
-    line-height: 1.1;
-    text-align: center;
-  }
-  
-  .logo-stars {
-    color: var(--accent-gold);
-    font-size: 0.8rem;
-    line-height: 1.2;
-    letter-spacing: 3px;
-  }
-  
-  .logo-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-  }
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.05rem;
+  color: #5b4a3b;
+  transition: 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #b0895c;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.logo-name {
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  color: #1C1C1C;
+}
 
   /* HERO */
 
-  .hero {
-    background: radial-gradient(
-      circle at 50% 30%,
-      #fff5dc 0%,
-      #f3d9b1 40%,
-      #d6b07f 100%
-    );
-  }
-  
-  .hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-      rgba(255, 245, 230, 0.65),
-      rgba(210, 180, 140, 0.55)
-    );
-  }
+.hero {
+  background: linear-gradient(
+    180deg,
+    #f8f1e3 0%,
+    #e6d0aa 50%,
+    #cda873 100%
+  );
+  padding: 120px 0 140px 0;
+  text-align: center;
+}
 
 .hero-content {
-  position: relative;
-  max-width: 800px;
-  padding: 20px;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .hero h1 {
-  text-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.0rem;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .hero-subtitle {
-  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  font-family: "Indie Flower", cursive;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+.hero-divider {
+  color: #d4b37a;
+  margin: 20px 0;
+  line-height: 1.2;
 }
 
 .hero-button {
-  display: inline-block;
+  background: white;
   padding: 12px 28px;
-  background-color: rgba(255,255,255,0.85);
-  color: #5a4a3f;
+  border-radius: 40px;
   text-decoration: none;
-  border-radius: 30px;
-  transition: all 0.3s ease;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s ease;
 }
 
 .hero-button:hover {
-  background-color: #fff;
-  transform: translateY(-2px);
-}
-
-.hero-content {
-  margin-top: 60px;
-  animation: fadeIn 1.5s ease forwards;
-  opacity: 0;
-}
+  background: #f2e6cf;
+}  
 
 @keyframes fadeIn {
   to {
@@ -158,30 +157,75 @@ body {
 /* MANIFESTO */
 
 .about-soft {
-  background: #f9f7f2;
   padding: 100px 0;
+  background: #f3efe7;
 }
 
-.about-container {
-  max-width: 1100px;
-  margin: auto;
-  display: flex;
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: center;
 }
 
 .about-image img {
   width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  border-radius: 14px;
 }
 
 .about-text h2 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 2.4rem;
+  margin-bottom: 20px;
 }
 
 .about-text p {
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  line-height: 1.9;
+  font-family: "Indie Flower", cursive;
+  max-width: 580px;
+}
+
+.section-tag {
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  color: #b0895c;
+}
+
+/* CARD */
+
+.home-categories {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #b0895c;
+  font-weight: 500;
 }
