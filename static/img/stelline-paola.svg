@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+
+  <g fill="none" stroke="#B0895C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Stella grande (leggermente irregolare) -->
+    <path d="M100 10 L108 45 L140 55 L108 65 L100 100 L92 65 L60 55 L92 45 Z"/>
+
+    <!-- Stella piccola sinistra -->
+    <path d="M45 55 L50 70 L65 75 L50 80 L45 95 L40 80 L25 75 L40 70 Z"/>
+
+    <!-- Stella piccola destra -->
+    <path d="M155 60 L160 75 L175 80 L160 85 L155 100 L150 85 L135 80 L150 75 Z"/>
+
+  </g>
+
+</svg>
