@@ -426,3 +426,81 @@ html {
 .section.right::after {
   left: calc((100% + 1000px)/2 - 32px - 270px);
 }
+
+/* FOOTER BASE */
+
+.site-footer {
+  position: relative;
+  margin-top: 140px;
+  padding-top: 80px;
+  border-top: 1px solid #C79A2B;
+  background: #f4efe6;
+}
+
+/* TRATTINO VERTICALE DI CHIUSURA */
+
+.site-footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(27% - 0.5px);
+  width: 1px;
+  height: 60px;
+  background: #C79A2B;
+}
+
+/* CONTENUTO */
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 32px 70px 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+.footer-col h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #C79A2B;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+.footer-col h4 {
+  font-size: 0.95rem;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  color: #5c4b2e;
+}
+
+.footer-col p,
+.footer-col li {
+  font-family: 'Indie Flower', cursive;
+  font-size: 0.95rem;
+  color: #5c4b2e;
+  margin-bottom: 8px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col a {
+  text-decoration: none;
+  color: #5c4b2e;
+  transition: 0.3s;
+}
+
+.footer-col a:hover {
+  color: #C79A2B;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 25px;
+  border-top: 1px solid rgba(199,154,43,0.3);
+  font-size: 0.8rem;
+  color: #7a6a4a;
+}
