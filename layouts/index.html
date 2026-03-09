@@ -2,34 +2,8 @@
 
   {{ partial "hero.html" . }}
   {{ partial "manifesto.html" . }}
-
-  <section class="home-categories">
-  <div class="container">
-    <div class="cards-grid">
-
-      {{ partial "card.html" (dict 
-        "image" "/img/candela1.jpeg"
-        "title" "Candele"
-        "description" "Ogni candela è un gesto di luce e presenza."
-        "link" "/candele/"
-      ) }}
-
-      {{ partial "card.html" (dict 
-        "image" "/img/libri.png"
-        "title" "Libri"
-        "description" "Parole che nascono dall’ascolto profondo della luce interiore."
-        "link" "/libri/"
-      ) }}
-
-      {{ partial "card.html" (dict 
-        "image" "/img/percorsi.jpg"
-        "title" "Percorsi"
-        "description" "Sentieri di consapevolezza e crescita personale."
-        "link" "/percorsi/"
-      ) }}
-
-    </div>
-  </div>
-</section>
+  {{ partial "candele.html" . }}
+  {{ partial "libri.html" . }}
+  {{ partial "sentieri.html" . }}
 
 {{ end }}
