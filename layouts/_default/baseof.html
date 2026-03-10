@@ -19,6 +19,35 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  <div class="image-lightbox" id="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" id="lightbox-img">
+  </div>
 
+  <script>
+    document.querySelectorAll('.zoomable').forEach(img => {
+      img.addEventListener('click', function() {
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        lightbox.classList.add('active');
+        lightboxImg.src = this.src;
+        document.body.style.overflow = 'hidden';
+      });
+    });
+    
+    document.getElementById('lightbox').addEventListener('click', function(e) {
+      if (e.target !== this.querySelector('.lightbox-img')) {
+        this.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+    
+    document.addEventListener('keydown', function(e) {
+      if (e.key === "Escape") {
+        document.getElementById('lightbox').classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+    </script>
 </body>
 </html>
