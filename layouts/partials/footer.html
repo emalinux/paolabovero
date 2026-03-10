@@ -18,26 +18,40 @@
     <div class="footer-col">
       <h4>Sezioni</h4>
       <ul>
-        <li><a href="#percorso">Il mio cammino</a></li>
-        <li><a href="#candele">Candele</a></li>
-        <li><a href="#libri">Libri</a></li>
-        <li><a href="#sentieri">Sentieri</a></li>
-        <li><a href="/contatti">Contatti</a></li>
+        <li><a href="{{ "/" | relURL }}#percorso">Il mio Percorso</a></li>
+        <li><a href="{{ "/" | relURL }}#candele">Candele</a></li>
+        <li><a href="{{ "/" | relURL }}#libri">Libri</a></li>
+        <li><a href="{{ "/" | relURL }}#sentieri">Sentieri</a></li>
+        <li><a href="{{ "contatti" | relURL }}">Contatti</a></li>
       </ul>
     </div>
 
     <div class="footer-col">
-      <h4>Contatti</h4>
-      <p>Email: info@paolabovero.it</p>
-      <p>Instagram</p>
-      <p>Facebook</p>
-      <p>Linkedin</p>
-    </div>
+  <h4>Contatti</h4>
+
+  <p>
+    <span class="footer-icon">✉</span>
+    <a href="mailto:info@paolabovero.it" class="footer-mail">
+      info@paolabovero.it
+    </a>
+  </p>
+
+  <p><span class="footer-icon">📷</span> Instagram</p>
+  <p><span class="footer-icon">📘</span> Facebook</p>
+  <p><span class="footer-icon">🔗</span> Linkedin</p>
+</div>
 
   </div>
 
   <div class="footer-bottom">
     © {{ now.Year }} Paola Bovero · Tutti i diritti riservati
+   
+  <p class="footer-signature">
+    Realizzato con ❤️ da 
+    <a href="https://www.assemblercomputer.net/" target="_blank">
+      Manuel – Assembler Studio
+    </a>
+  </p>
   </div>
 
 </footer>

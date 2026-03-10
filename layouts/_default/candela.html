@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<section class="section candela-page">
+
+  <div class="container candela-intro-wrapper">
+    <h1 class="page-title">
+      {{ .Title }}
+    </h1>
+
+    <div class="candela-intro">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{ if .Params.gallery }}
+<div class="candela-gallery-full">
+  {{ range .Params.gallery }}
+    <div class="gallery-item">
+      <img 
+        src="{{ . }}" 
+        alt="{{ $.Title }}" 
+        class="zoomable"
+      >
+    </div>
+  {{ end }}
+</div>
+{{ end }}
+
+</section>
+
+{{ end }}
