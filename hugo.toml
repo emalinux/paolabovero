@@ -11,3 +11,62 @@ disableKinds = ["taxonomy", "term"]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true  
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Il mio percorso"
+    url = "/#percorso"
+    weight = 2
+
+  [[menu.main]]
+    name = "Candele"
+    url = "/#candele"
+    weight = 3
+    identifier = "candele"
+
+  [[menu.main]]
+    name = "Cera d’api"
+    url = "/candele/cera/"
+    parent = "candele"
+    weight = 1
+
+  [[menu.main]]
+    name = "Soia"
+    url = "/candele/soia/"
+    parent = "candele"
+    weight = 2
+
+  [[menu.main]]
+    name = "Paraffina"
+    url = "/candele/paraffina/"
+    parent = "candele"
+    weight = 3
+
+  [[menu.main]]
+    name = "Il mio incontro con la Luce"
+    url = "/candele/incontro-con-la-luce/"
+    parent = "candele"
+    weight = 4
+
+  [[menu.main]]
+    name = "Libri"
+    url = "/#libri"
+    weight = 5
+    identifier = "libri"
+
+   [[menu.main]]
+    name = "Sentieri"
+    url = "/#sentieri"
+    weight = 6
+    identifier = "sentieri"  
+
+  [[menu.main]]
+    name = "Contatti"
+    url = "/contatti/"
+    weight = 7      

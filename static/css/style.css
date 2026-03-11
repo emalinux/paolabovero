@@ -34,7 +34,7 @@ html {
 }
 
 .section-title-large {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Indie Flower", cursive;
   font-size: 2.2rem;
   margin-bottom: 50px;
   letter-spacing: 3px;
@@ -102,22 +102,104 @@ html {
   margin-bottom: 16px;
 }
 
-.main-nav {
+/* NAV STRUCTURE */
+
+.main-nav ul {
+  list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 50px;
+  align-items: center;
+}
+
+.main-nav li {
+  position: relative;
 }
 
 .main-nav a {
   text-decoration: none;
-  font-size: 0.9rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--text-dark);
-  position: relative;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.25rem;   /* prima era troppo piccolo */
+  letter-spacing: 1px;
+  color: #5c4b2e;
+  transition: color 0.3s ease;
 }
 
 .main-nav a:hover {
-  color: var(--accent);
+  color: #C79A2B;
+}
+
+/* WRAPPER TITOLI SEZIONE */
+
+.section-heading {
+  margin-bottom: 25px;
+}
+
+.section-heading.centered {
+  text-align: center;
+}
+
+.section-title-large {
+  margin-bottom: 8px;    /* controlliamo lo spazio sotto l’H2 */
+}
+
+/* FRASE POETICA */
+
+.section-quote {
+  margin-top: 4px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  color: #C79A2B;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+
+/* Versione più ariosa su desktop */
+
+@media (min-width: 1024px) {
+  .section-quote {
+    font-size: 1.8rem;
+  }
+}
+
+/* DROPDOWN */
+
+.has-dropdown:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: #ffffff;
+  padding: 25px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  min-width: 260px;
+  border-radius: 6px;
+}
+
+/* Voci dropdown */
+
+.dropdown a {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.25rem;
+  color: #6d5e4a;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.dropdown a:hover {
+  color: #C79A2B;
+  transform: translateY(-2px);
 }
 
 /* HERO */
@@ -214,7 +296,8 @@ html {
 }
 
 .card img {
-  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
   height: auto;
   display: block;
 }
@@ -317,13 +400,13 @@ html {
 .candele-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin-top: 40px;
+  gap: 25px;
+  margin-top: 25px;
 }
 
 .card-image {
   width: 100%;
-  aspect-ratio: 4 / 5;   /* più compatto del 3/4 */
+  aspect-ratio: 2 / 2.7;   /* più compatto del 3/4 */
   overflow: hidden;
 }
 
@@ -345,7 +428,7 @@ html {
 }
 
 .candela-body {
-  padding: 14px 16px;
+  padding: 10px 14px;
   text-align: center;
   font-family: "Indie Flower", cursive;
 }
@@ -427,8 +510,6 @@ html {
   background: #C79A2B;
 }
 
-/* SEZIONE CONNECTOR */
-
 /* LINEA ORIZZONTALE SUPERIORE */
 
 .section {
@@ -469,7 +550,7 @@ html {
 .site-footer {
   position: relative;
   margin-top: 140px;
-  padding-top: 80px;
+  padding-top: 50px;
   border-top: 1px solid #C79A2B;
   background: #f4efe6;
 }
@@ -494,12 +575,26 @@ html {
   padding: 0 32px 70px 32px;
   padding-top: 5px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 60px;
+  grid-template-columns: 1.2fr 1fr 1.1fr;
+  gap: 130px;
+}
+
+.footer-brand p {
+  white-space: nowrap;
+}
+
+.footer-brand p {
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .footer-brand p {
+    white-space: normal;
+  }
 }
 
 .footer-col h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Indie Flower', cursive;
   color: #C79A2B;
   font-size: 1.6rem;
   margin-bottom: 15px;
@@ -508,7 +603,7 @@ html {
 .footer-col h4 {
   font-size: 0.95rem;
   letter-spacing: 2px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   color: #C79A2B;
   font-weight: 500;
 }
@@ -524,6 +619,10 @@ html {
 .footer-col ul {
   list-style: none;
   padding: 0;
+}
+
+.footer-col li {
+  margin-bottom: 8px;
 }
 
 .footer-col a {
@@ -551,10 +650,11 @@ html {
 }
 
 .footer-col a {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.1rem;
+  color: #6d5e4a;
   text-decoration: none;
-  color: inherit;
-  transition: 0.3s ease;
-  position: relative;
+  transition: color 0.2s ease;
 }
 
 .footer-col a::after {
@@ -580,8 +680,8 @@ html {
   margin-top: 10px;
 }
 
-.footer-col:nth-child(2) {
-  padding-left: 95px;
+.footer-col:nth-child(3) {
+  justify-self: end;
 }
 
 .footer-mail {
@@ -615,10 +715,33 @@ html {
   letter-spacing: 0.5px;
 }
 
+.footer-links-grid {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-links-left,
+.footer-links-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-links-left a,
+.footer-links-right a {
+  white-space: nowrap;
+}
+
+.footer-col p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 /* SCROLL */
 
 #candele {
-  scroll-margin-top: 30px;
+  scroll-margin-top: 95px;
 }
 
 #candele {
@@ -626,7 +749,7 @@ html {
 }
 
 #candele.section {
-  padding-top: 90px;
+  padding-top: 70px;
 }
 
 #libri {
