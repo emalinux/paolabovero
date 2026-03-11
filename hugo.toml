@@ -6,3 +6,8 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "Sito ufficiale di Paola Bovero"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  

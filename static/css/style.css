@@ -708,6 +708,30 @@ html {
   line-height: 1.9;
 }
 
+.candle-story-link {
+  text-align: center;
+  margin: 70px 0 40px 0;
+}
+
+.story-phrase {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.4rem;
+  color: #6d5e4a;
+  margin-bottom: 15px;
+}
+
+.story-link {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #c6a86a;
+  transition: opacity 0.3s ease;
+}
+
+.story-link:hover {
+  opacity: 0.7;
+}
+
 /* GALLERY FULL WIDTH */
 
 .candela-gallery-full {
@@ -745,3 +769,75 @@ html {
 
 .nav-arrow.left { left: 20px; }
 .nav-arrow.right { right: 20px; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* EDITORIAL PAGE */
+
+.editorial-page {
+  padding: 100px 20px 120px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.editorial-header {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.editorial-title {
+  font-family: "Indie Flower", cursive;
+  font-size: 3rem;
+  color: #C79A2B;
+  margin-bottom: 25px;
+  text-shadow: 0 0 10px rgba(199,154,43,0.25);
+}
+
+.editorial-subtitle {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.1rem;
+  color: #8a7a60;
+  letter-spacing: 1px;
+}
+
+.editorial-content {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.25rem;
+  line-height: 2.2;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.book-ref {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.9rem;
+  color: #8a7a60;
+  margin-top: 25px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.poetic-separator {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #c6a86a;
+  margin: 100px 0;
+  letter-spacing: 12px;
+  opacity: 0.95;
+}
+
+.editorial-symbol {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #c6a86a;
+}
+
+.candle-icon {
+  width: 52px;
+  opacity: 0.9;
+}

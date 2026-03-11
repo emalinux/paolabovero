@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<section class="editorial-page">
+
+  <div class="editorial-header">
+
+    <div class="editorial-symbol">
+      <svg class="candle-icon" viewBox="0 0 24 36" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2 C8 8, 16 10, 12 18 C10 14, 6 12, 12 2 Z"
+              stroke="currentColor"
+              stroke-width="1.5"
+              fill="none"/>
+      </svg>
+    </div>
+
+    <h1 class="editorial-title">{{ .Title }}</h1>
+    <p class="editorial-subtitle">
+      Estratti da “Raggi – Diario di Luce”
+    </p>
+  </div>
+
+  <div class="editorial-content">
+    {{ .Content }}
+  </div>
+
+</section>
+
+{{ end }}
