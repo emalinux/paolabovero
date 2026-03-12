@@ -1,0 +1,74 @@
+{{ define "main" }}
+
+<section class="book-hero-minimal">
+
+  <div class="book-cover-large">
+    <img src="{{ .Params.cover }}" alt="{{ .Title }}">
+  </div>
+
+  <h1 class="book-title">
+    {{ .Title }}
+  </h1>
+
+  {{ with .Params.subtitle }}
+    <h2 class="book-subtitle">
+      {{ . }}
+    </h2>
+  {{ end }}
+
+  {{ with .Params.tagline }}
+    <p class="book-tagline">
+      « {{ . }} »
+    </p>
+  {{ end }}
+
+  {{ with .Params.intro }}
+  <div class="book-intro-block">
+    <p>{{ . }}</p>
+  </div>
+{{ end }}
+
+<div class="poetic-separator">✧ ✦ ✧</div>
+
+</section>
+
+
+{{ if .Content }}
+<section class="book-editorial-content">
+  <div class="book-text-container">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}
+
+<div class="poetic-separator">✧ ✦ ✧</div>
+
+<section class="book-availability">
+
+  <p class="availability-label">Disponibile su</p>
+
+  <div class="book-buttons">
+
+    {{ with .Params.amazon }}
+      <a href="{{ . }}" target="_blank" class="book-btn">
+        Amazon
+      </a>
+    {{ end }}
+
+    {{ with .Params.giardino }}
+      <a href="{{ . }}" target="_blank" class="book-btn">
+        Il Giardino dei Libri
+      </a>
+    {{ end }}
+
+  </div>
+
+  <div class="book-contact">
+    <a href="/contatti/" class="contact-link">
+      Per informazioni →
+    </a>
+  </div>
+
+</section>
+
+{{ end }}

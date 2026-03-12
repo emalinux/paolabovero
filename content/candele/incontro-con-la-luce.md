@@ -1,7 +1,6 @@
 +++
 title = "Il mio incontro con la Luce"
 layout = "single-incontro"
-draft = true
 +++
 
 Dentro di me si è accesa una calda luce ambrata e, da subito, ho intuito che non dovevo tardare a iscrivermi.

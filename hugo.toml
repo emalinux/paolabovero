@@ -22,7 +22,14 @@ disableKinds = ["taxonomy", "term"]
   [[menu.main]]
     name = "Il mio percorso"
     url = "/#percorso"
+    identifier = "percorso"
     weight = 2
+
+  [[menu.main]]
+    name = "Il mio incontro con la Luce"
+    url = "/candele/incontro-con-la-luce/"
+    parent = "percorso"
+    weight = 1  
 
   [[menu.main]]
     name = "Candele"
@@ -49,22 +56,33 @@ disableKinds = ["taxonomy", "term"]
     weight = 3
 
   [[menu.main]]
-    name = "Il mio incontro con la Luce"
-    url = "/candele/incontro-con-la-luce/"
-    parent = "candele"
-    weight = 4
-
-  [[menu.main]]
     name = "Libri"
     url = "/#libri"
-    weight = 5
+    weight = 4
     identifier = "libri"
+
+  [[menu.main]]
+    name = "Raggi – Diario di Luce"
+    url = "/libri/raggi-di-luce/"
+    parent = "libri"
+    weight = 1
+
+  [[menu.main]]
+    name = "Fu – Il fiorellino dell’arcobaleno"
+    url = "/libri/fu-il-fiorellino-dell-arcobaleno/"
+    parent = "libri"
+    weight = 2  
 
    [[menu.main]]
     name = "Sentieri"
     url = "/#sentieri"
-    weight = 6
-    identifier = "sentieri"  
+    weight = 5
+    identifier = "sentieri" 
+
+  [[menu.main]]
+    name = "Galleria"
+    url = "/galleria/"
+    weight = 6   
 
   [[menu.main]]
     name = "Contatti"

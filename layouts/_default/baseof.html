@@ -20,62 +20,92 @@
   </main>
   {{ partial "footer.html" . }}
 
-<script>
-let currentIndex = 0;
-let images = [];
-
-document.addEventListener("DOMContentLoaded", function() {
-
-  const zoomables = document.querySelectorAll('.zoomable');
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImg = document.getElementById('lightbox-img');
-
-  zoomables.forEach((img, index) => {
-    images.push(img.src);
-
-    img.addEventListener('click', function() {
-      currentIndex = index;
-      lightbox.classList.add('active');
-      lightboxImg.src = images[currentIndex];
-      document.body.style.overflow = 'hidden';
+  <script>
+    let currentIndex = 0;
+    let images = [];
+    
+    document.addEventListener("DOMContentLoaded", function() {
+    
+      const zoomables = document.querySelectorAll('.zoomable, .gallery-item');
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      const leftArrow = document.querySelector('.nav-arrow.left');
+      const rightArrow = document.querySelector('.nav-arrow.right');
+      const closeBtn = document.querySelector('.close-btn');
+    
+      // Costruiamo array immagini
+      zoomables.forEach((element) => {
+        const img = element.tagName === "IMG" ? element : element.querySelector("img");
+        images.push(img.src);
+    
+        element.addEventListener('click', function(e) {
+          e.preventDefault();
+          currentIndex = images.indexOf(img.src);
+          openLightbox();
+        });
+      });
+    
+      function openLightbox() {
+        lightbox.classList.add('active');
+        lightboxImg.src = images[currentIndex];
+        document.body.style.overflow = 'hidden';
+      }
+    
+      function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    
+      function nextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        lightboxImg.src = images[currentIndex];
+      }
+    
+      function prevImage() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        lightboxImg.src = images[currentIndex];
+      }
+    
+      // Frecce
+      leftArrow.addEventListener('click', function(e) {
+        e.stopPropagation();
+        prevImage();
+      });
+    
+      rightArrow.addEventListener('click', function(e) {
+        e.stopPropagation();
+        nextImage();
+      });
+    
+      // X
+      closeBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        closeLightbox();
+      });
+    
+      // Click fuori
+      lightbox.addEventListener('click', function(e) {
+        if (e.target === lightbox) {
+          closeLightbox();
+        }
+      });
+    
+      // Tastiera
+      document.addEventListener('keydown', function(e) {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === "Escape") closeLightbox();
+        if (e.key === "ArrowRight") nextImage();
+        if (e.key === "ArrowLeft") prevImage();
+      });
+    
     });
-  });
-
-  window.nextImage = function() {
-    currentIndex = (currentIndex + 1) % images.length;
-    lightboxImg.src = images[currentIndex];
-  }
-
-  window.prevImage = function() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    lightboxImg.src = images[currentIndex];
-  }
-
-  lightbox.addEventListener('click', function(e) {
-    if (!e.target.classList.contains('lightbox-img') &&
-        !e.target.classList.contains('nav-arrow')) {
-      closeLightbox();
-    }
-  });
-
-  document.addEventListener('keydown', function(e) {
-    if (e.key === "Escape") closeLightbox();
-    if (e.key === "ArrowRight") nextImage();
-    if (e.key === "ArrowLeft") prevImage();
-  });
-
-  function closeLightbox() {
-    lightbox.classList.remove('active');
-    document.body.style.overflow = 'auto';
-  }
-
-});
-</script>
+    </script>
 
 <div id="lightbox" class="lightbox">
-  <span class="nav-arrow left" onclick="prevImage()">‹</span>
+  <span class="close-btn">×</span>
+  <span class="nav-arrow left">‹</span>
   <img id="lightbox-img" class="lightbox-img" src="">
-  <span class="nav-arrow right" onclick="nextImage()">›</span>
+  <span class="nav-arrow right">›</span>
 </div>
 </body>
 </html>

@@ -69,6 +69,20 @@ html {
   padding-top: 60px;
 }
 
+.editorial-image {
+  text-align: center;
+  margin: 50px auto 60px;
+}
+
+.editorial-image img {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
   /* HEADER */
 
 .site-header {
@@ -393,6 +407,12 @@ html {
 
 .book-link:hover {
   letter-spacing: 0.5px;
+}
+
+.book-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* CANDELE MODERNE */
@@ -949,7 +969,8 @@ html {
   text-align: center;
   font-size: 1.6rem;
   color: #c6a86a;
-  margin: 100px 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
   letter-spacing: 12px;
   opacity: 0.95;
 }
@@ -963,4 +984,319 @@ html {
 .candle-icon {
   width: 52px;
   opacity: 0.9;
+}
+
+/* HERO LIBRO */
+
+.book-hero-minimal {
+  text-align: center;
+  padding: 60px 20px 40px 20px; /* prima era 90 / 60 */
+}
+
+.book-cover-large img {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+}
+
+.book-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  margin-bottom: 2px;
+  color: #3a3124;
+}
+
+.book-subtitle {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #C79A2B;
+}
+
+.book-tagline {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.2rem;
+  color: #C79A2B;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.book-hero-minimal,
+.book-editorial-content,
+.book-availability {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.book-intro-block {
+  max-width: 700px;
+  margin: 15px auto 20px auto;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.15rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: #6b5a3f;
+}
+
+
+/* CONTENUTO EDITORIALE */
+
+.book-editorial-content {
+  padding: 20px 20px 40px 20px;
+}
+
+.book-editorial-content:empty {
+  display: none;
+}
+
+.book-text-container {
+  max-width: 720px;
+  margin: 0 auto;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #4b4030;
+}
+
+.book-text-container p {
+  margin-bottom: 18px;
+}
+
+
+/* DISPONIBILITÀ */
+
+.book-availability {
+  text-align: center;
+  padding-bottom: 50px; /* prima 80 */
+  margin-top: 10px; /* aggiungi questo */
+}
+
+.availability-label {
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #7a6a4a;
+}
+
+.book-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.book-btn {
+  padding: 10px 20px;
+  border: 1px solid #C79A2B;
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+  color: #C79A2B;
+  transition: 0.3s ease;
+}
+
+.book-btn:hover {
+  background: #C79A2B;
+  color: #fff;
+}
+
+.book-contact .contact-link {
+  font-family: "Indie Flower", cursive;
+  color: #B0895C;
+  text-decoration: none;
+}
+
+/* HERO CONTATTI */
+
+.contact-hero {
+  text-align: center;
+  padding: 80px 20px 40px 20px;
+}
+
+.contact-hero h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+}
+
+.contact-tagline {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.3rem;
+  color: #C79A2B;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+
+/* INFO DIRETTE */
+
+.contact-info {
+  text-align: center;
+  padding: 20px 20px 40px 20px;
+}
+
+.contact-direct a {
+  color: #B0895C;
+  text-decoration: none;
+}
+
+.contact-direct a:hover {
+  text-decoration: underline;
+}
+
+
+/* FORM */
+
+.contact-form-section {
+  max-width: 600px;
+  margin: 0 auto 80px auto;
+  padding: 0 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form-section input,
+.contact-form-section textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(199,154,43,0.4);
+  background: transparent;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+}
+
+.contact-form-section input:focus,
+.contact-form-section textarea:focus {
+  outline: none;
+  border-color: #C79A2B;
+}
+
+.contact-btn {
+  padding: 10px 25px;
+  border: 1px solid #C79A2B;
+  background: transparent;
+  color: #C79A2B;
+  font-family: "Cormorant Garamond", serif;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #C79A2B;
+  color: #fff;
+}
+
+/* GALLERIA */
+
+.gallery-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.gallery-quote {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.2rem;
+  color: #C79A2B;
+  margin-bottom: 50px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 10px;
+  display: block;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4/5;
+  object-fit: contain;  /* NON cover */
+  background: #f4f0ea;  /* colore neutro elegante */
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.gallery-title {
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2.2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* SENTIERI */
+
+.sentieri-page {
+  padding: 80px 20px;
+}
+
+.sentieri-title {
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.4rem;
+  margin-bottom: 60px;
+}
+
+.sentieri-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.sentieri-text {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: #4b4030;
+}
+
+.sentieri-images {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sentieri-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .sentieri-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sentieri-image {
+    margin-top: 40px;
+  }
 }
