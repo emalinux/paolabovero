@@ -64,6 +64,7 @@ paolabovero/
 
 ---
 
+```plaintext
 🚀 Caratteristiche
 
 ✅ Homepage narrativa a scroll
@@ -73,7 +74,7 @@ paolabovero/
 ✅ SEO-ready
 ✅ Responsive design
 ✅ Performance ottimizzate
-
+```
 
 ---
 
@@ -85,8 +86,11 @@ Contatti diretti? [📧 emalinux77@gmail.com](mailto:emalinux77@gmail.com)
 
 ---
 
+
+```plaintext
 📝 Note
     • Tema completamente custom
     • Nessun template acquistato
     • Codice scritto e organizzato manualmente
     • Struttura pronta per futura espansione
+```   
