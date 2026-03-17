@@ -15,7 +15,7 @@ Tutto è iniziato per caso, quasi per curiosità, direi per gioco.
 
 Adoro il bricolage, la creatività espressa con le mani, quella che trasforma e stupisce.
 
-La mia attenzione è caduta su una locandina molto ben studiata, serissima, ma luminosissima al tempo stesso, rischiarata da una fiamma arancione di una semplicissima candela. Ho sentito quest’iniziativa subito “amica”, in risonanza con me.
+La mia attenzione è caduta su una locandina molto ben studiata, scurissima, ma luminosissima al tempo stesso, rischiarata da una fiamma arancione di una semplicissima candela. Ho sentito quest’iniziativa subito “amica”, in risonanza con me.
 
 Ho letto poi con più precisione di cosa si trattasse e ho capito che non mi ero sbagliata: era la proposta di un pomeriggio dedicato alla creazione di candele.
 
@@ -27,7 +27,7 @@ Mi sono sentita subito accolta da quel mondo dorato che viveva nel “processo d
 
 Un crescendo di luminosità che rischiara, risplende e brilla.
 
-Ed ecco che sono nate rose, fiori, farfalle, angeli, cubi, sfere, capricorni, gatti, l’albero della vita, il Tao, fiocchi di neve, stelle.
+Ed ecco che sono nate rose, fiori, farfalle, angeli, cubi, sfere, cagnolini, gatti, l’albero della vita, il Tao, fiocchi di neve, stelle.
 
 Tutto un mondo multicolore che ho pensato potesse donare un poco di luce ovunque o potesse, a sua volta, essere regalato a chiunque.
 

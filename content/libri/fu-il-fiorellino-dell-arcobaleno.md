@@ -8,8 +8,6 @@ amazon: "#"
 giardino: "#"
 ---
 
-Accoglienza, Autenticità, Gioia, Dolcezza, Tolleranza, Fraternità, Empatia, Ascolto, Aiuto, Resilienza sono alcune tinte dell’Universo dell’adozione: un cammino che permette l’unione di quattro cuori.
+Accoglienza, Autenticità, Gioia, Dolcezza, Tolleranza, Fraternità, Empatia, Ascolto, Aiuto, Resilienza sono alcune tinte dell’Universo dell’adozione, un cammino che permette l’Unione di quattro cuori: ciascuno, a proprio modo, contribuisce alla incantevole creazione di un RICCO MONDO.
 
-Ciascuno, a proprio modo, contribuisce alla creazione di un ricco mondo, fatto di incontri, scoperte e nuova consapevolezza.
-
-La mia certezza è che, nella società multietnica in cui viviamo, si possa leggere la differenza non come paura o giudizio, ma come un’occasione di crescita, come una possibilità di vivere la tolleranza, l’aiuto, la curiosità, il rispetto.
+Queste virtù, rifletto, sono proprio le stesse di cui la quotidianità di ciascun essere umano necessita per “respirare”, vivere e, soprattutto, costruire un mondo di Vera Umanità.

@@ -4,12 +4,12 @@ layout = "candela"
 draft = false
 
 gallery = [
-  "/img/angel.jpeg",
-  "/img/angel1.jpeg",
-  "/img/angel2.jpeg",
-  "/img/angel3.jpeg",
-  "/img/angel4.jpeg",
-  "/img/angel6.jpeg"
+  "/img/cera/cera.jpeg",
+  "/img/cera/cera1.jpeg",
+  "/img/cera/cera2.jpeg",
+  "/img/cera/cera3.jpeg",
+  "/img/cera/cera4.jpeg",
+  "/img/cera/cera5.jpeg",
 ]
 +++
 
