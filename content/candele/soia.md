@@ -15,7 +15,5 @@ gallery = [
 ]
 +++
 
-Cera bianco-latte, candida e pura,  
-luminosa e morbida accolta  
-in queste piccole mie creazioni  
-di Luce e di Amore.
+La cera bianco-latte, candida e pura,  
+luminosa e morbida è custode di Luce e armonia.

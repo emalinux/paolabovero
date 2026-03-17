@@ -74,7 +74,7 @@ disableKinds = ["taxonomy", "term"]
     weight = 2  
 
    [[menu.main]]
-    name = "Sentieri"
+    name = "Biografie dell'Anima"
     url = "/#sentieri"
     weight = 5
     identifier = "sentieri" 

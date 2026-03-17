@@ -20,7 +20,8 @@ gallery = [
 ]
 +++
 
-Le diverse forme, dimensioni e colori  
-creano un mondo di manufatti da scegliere  
-o regalare per occasioni speciali:  
-sono un dono di Luce e Amore.
+Le mie candele in Paraffina di alta qualità sono un dono di Luce e Amore. 
+
+Le diverse forme, dimensioni e colori
+creano un mondo di manufatti da scegliere
+o regalare per occasioni speciali:
