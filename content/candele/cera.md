@@ -13,6 +13,6 @@ gallery = [
 ]
 +++
 
-La magia delle api, il colore caldo e dorato del miele,  
-il profumo dell’alveare sono racchiusi in queste piccole mie  
+La magia delle api, il colore caldo e dorato del miele,
+il profumo dell’alveare sono racchiusi in queste piccole mie
 creazioni di Luce e di Amore.

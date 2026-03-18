@@ -3,56 +3,72 @@ title = "Il mio incontro con la Luce"
 layout = "single-incontro"
 +++
 
-Dentro di me si è accesa una calda luce ambrata e, da subito, ho intuito che non dovevo tardare a iscrivermi.
+[ … ]  " La mia scelta di stare accanto a lui è stata dettata proprio da un folgorante bagliore. Da sempre ho provato quel calore donato dentro di me.” [ … ]
 
-Sono stata immediatamente affascinata da questo mondo “magico”, colorato e profumato.
-
-<div class="book-ref">(p. 18, P. Bovero, Raggi – Diario di Luce)</div>
+<div class="book-ref">(p. 15, P. Bovero, Raggi – Diario di Luce)</div>
 
 <div class="poetic-separator">✧ ✦ ✧</div>
 
-Tutto è iniziato per caso, quasi per curiosità, direi per gioco.
+[ … ] " quando ho preso la decisione, una silenziosa e segreta scintilla continuava, continuamente, a spingermi e a fare la scelta.” [ … ]
 
-Adoro il bricolage, la creatività espressa con le mani, quella che trasforma e stupisce.
+<div class="book-ref">(p. 15, P. Bovero, Raggi – Diario di Luce)</div>
 
-La mia attenzione è caduta su una locandina molto ben studiata, scurissima, ma luminosissima al tempo stesso, rischiarata da una fiamma arancione di una semplicissima candela. Ho sentito quest’iniziativa subito “amica”, in risonanza con me.
+<div class="poetic-separator">✧ ✦ ✧</div>
 
-Ho letto poi con più precisione di cosa si trattasse e ho capito che non mi ero sbagliata: era la proposta di un pomeriggio dedicato alla creazione di candele.
+[ … ] “ Durante la giornata, quella stessa scintilla si accendeva spesso in me e mi rendeva felice; mi sussurrava che, in questo momento della mia vita, dovevo cercare di portare luce, ancora più luce, proprio a casa da mamma.
+
+Così, come un temporale estivo che sorprende, ho parlato della mia decisione ai miei familiari e poi ho informato la scuola.” [ … ]
+
+<div class="book-ref">(p. 15, P. Bovero, Raggi – Diario di Luce)</div>
+
+<div class="poetic-separator">✧ ✦ ✧</div>
+
+[ … ] “ Questa luce mi ha dato e mi dà, ogni giorno, un inafferrabile e indescrivibile senso di pienezza. ” [ … ]
+
+<div class="book-ref">(p. 16, P. Bovero, Raggi – Diario di Luce)</div>
+
+
+QUESTO E' L'INCIPIT DEL MIO INCONTRO CON LA LUCE: UNA SCELTA CONSAPEVOLE DETTATA DALLA LUCE
+
+<div class="poetic-separator">✧ ✦ ✧</div>
+
+<div class="editorial-inline-image">
+  <img src="/img/percorsi.webp" alt="Paola nella lavanda">
+</div>
+
+<div class="poetic-separator">✧ ✦ ✧</div>
+
+[ … ] “ Tutto è iniziato per caso, quasi per curiosità, direi, per gioco.
+
+Adoravo il bricolage, la creatività espressa con le mani, quella che trasforma e stupisce ” [ … ]
 
 <div class="book-ref">(p. 17, P. Bovero, Raggi – Diario di Luce)</div>
 
 <div class="poetic-separator">✧ ✦ ✧</div>
 
-Mi sono sentita subito accolta da quel mondo dorato che viveva nel “processo di iniziazione alla luce”: dalla cera grezza, poi sciolta, alla cera colorata e solidificata, estratta dallo stampo.
+[ … ] “ Ho sentito quest'iniziativa subito "amica", in risonanza con me ” [ … ]
 
-Un crescendo di luminosità che rischiara, risplende e brilla.
-
-Ed ecco che sono nate rose, fiori, farfalle, angeli, cubi, sfere, cagnolini, gatti, l’albero della vita, il Tao, fiocchi di neve, stelle.
-
-Tutto un mondo multicolore che ho pensato potesse donare un poco di luce ovunque o potesse, a sua volta, essere regalato a chiunque.
-
-<div class="book-ref">(p. 20, P. Bovero, Raggi – Diario di Luce)</div>
+<div class="book-ref">(p. 17, P. Bovero, Raggi – Diario di Luce)</div>
 
 <div class="poetic-separator">✧ ✦ ✧</div>
 
-Molte mie creazioni, da allora, adornano le mensole di ogni camera, i libri della mia biblioteca, tanti miei spazi.
+[ … ] “ Sono stata immediatamente affascinata da questo mondo "magico", colorato e profumato ” [ … ]
 
-Volontariamente ho donato alcuni soprammobili e oggetti per lasciare il posto alla Luce.
+<div class="book-ref">(p. 18, P. Bovero, Raggi – Diario di Luce)</div>
 
-Da quel momento in poi, tutto è andato in quella direzione.
+<div class="poetic-separator">✧ ✦ ✧</div>
 
-In ogni candela, in ogni fiamma, porto la mia energia, la mia intenzione, la mia parte di cuore che metto in ogni mia creazione.
-
-Ogni candela ha una sua storia, un suo particolare momento legato alla sua realizzazione, una sua vita, una sua unicità.
+[ … ] “ Molte mie creazioni, oltre ad adornare le mensole di ogni camera, i libri della mia biblioteca, tanti miei spazi, volontariamente ho donato alcuni soprammobili e oggetti per lasciare il posto alla luce.
+Da quel momento in poi, tutto è andato in quella direzione. ” [ … ]
 
 <div class="book-ref">(p. 19, P. Bovero, Raggi – Diario di Luce)</div>
 
+LA LUCE DELLE CANDELE DA ME CREATE ACCOMPAGNA  IL MIO CAMMINO. LE LORO FIAMME SONO STATE E SONO LE MIE SILENZIOSE E FEDELI COMPAGNE DI VIAGGIO.
+
 <div class="poetic-separator">✧ ✦ ✧</div>
 
-Mi affascina e mi dà molta gioia pensare che le candele da me create vadano di qua e di là, di casa in casa, magari offerte per entrare in altre case ancora, forse in altre città, forse in altri Paesi.
+<div class="editorial-inline-image final-image">
+  <img src="/img/18.jpeg" alt="Luce e cammino">
+</div>
 
-Laddove sono, ovunque siano, esse portano Luce.
-
-Questa è l’intenzione di ogni mia candela: una Luce creata per essere diffusa, osservata, trasformata in nuova Luce.
-
-<div class="book-ref">(p. 21, P. Bovero, Raggi – Diario di Luce)</div>
+<div class="poetic-separator">✧ ✦ ✧</div>

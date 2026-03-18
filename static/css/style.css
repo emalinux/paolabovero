@@ -92,7 +92,13 @@ html {
   padding: 20px 0 15px;
   border-bottom: 1px solid rgba(0,0,0,0.06);
   z-index: 1000;
-  border-bottom: 1px solid #caa44c;
+  border-bottom: 1px solid #caa44c;  
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* spazio tra menu principali */
 }
 
 .header-inner {
@@ -187,34 +193,46 @@ html {
 
 /* DROPDOWN */
 
+.has-dropdown {
+  position: relative;
+  padding: 16px 0;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  margin-top: 10px;
+  background: #ffffff;
+  padding: 22px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  min-width: 200px;
+}
+
 .has-dropdown:hover .dropdown {
   opacity: 1;
   visibility: visible;
   transform: translateX(-50%) translateY(0);
 }
 
-.dropdown {
-  position: absolute;
-  top: 160%;                         /* più distante dal menu */
-  left: 50%;
-  transform: translateX(-50%) translateY(15px);
-  background: #ffffff;
-  padding: 30px 50px;                /* più aria interna */
-  display: flex;
-  flex-direction: column;
-  gap: 22px;                         /* più spazio tra le voci */
-  box-shadow: 0 20px 50px rgba(0,0,0,0.08);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.25s ease;
-  min-width: 280px;
-  border-radius: 10px;
-}
-
 /* Indicatore dropdown */
 
 .has-dropdown > a {
   position: relative;
+}
+
+.has-dropdown {
+  position: relative;
+  display: inline-block; /* fondamentale */
+  padding: 18px 0;
 }
 
 .has-dropdown > a::after {
@@ -226,7 +244,7 @@ html {
   border-right: 2px solid #C79A2B;
   border-bottom: 2px solid #C79A2B;
   transform: rotate(45deg);
-  transition: 0.3s ease;
+  transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .has-dropdown:hover > a::after {
@@ -241,6 +259,7 @@ html {
   color: #6d5e4a;
   text-align: center;
   transition: all 0.2s ease;
+  line-height: 1.4;
 }
 
 .dropdown a:hover {
@@ -1347,4 +1366,20 @@ html {
   .sentieri-image {
     margin-top: 40px;
   }
+}
+
+.editorial-inline-image {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.editorial-inline-image img {
+  max-width: 75%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.editorial-inline-image.final-image img {
+  max-width: 65%;
+  opacity: 0.95;
 }
