@@ -322,16 +322,35 @@ html {
 
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 460px 1fr;
   gap: 80px;
-  align-items: center;
+  align-items: start;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.about-image img {
+.about-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.manifesto-images {
+  display: flex;
+  margin-top: 60px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.manifesto-images img {
   width: 100%;
-  max-width: 520px;
-  height: 520px;
-  object-fit: cover;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  display: block;
+}
+
+.about-text {
+  max-width: 620px;
 }
 
 .about-text p {
@@ -343,6 +362,17 @@ html {
 
 .centered {
   text-align: center;
+}
+
+.manifesto-claim {
+  color: #C79A2B;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.1rem;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin: 30px auto;
+  max-width: 600px;
+  line-height: 1.6;
 }
 
 /* CARD */
@@ -1329,6 +1359,11 @@ html {
   margin-bottom: 60px;
 }
 
+#sentieri .section-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .sentieri-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
@@ -1354,6 +1389,85 @@ html {
   height: auto;
   border-radius: 8px;
   display: block;
+}
+
+.sentieri-box {
+  border: 1px solid #C79A2B;
+  padding: 18px 22px;
+  margin: 35px auto;
+  text-align: center;
+  color: #C79A2B;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 2px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  background: rgba(199,154,43,0.05);
+  border-radius: 6px;
+  max-width: 400px;
+}
+
+#sentieri .about-grid {
+  grid-template-columns: 1fr 460px;
+  gap: 80px;
+  align-items: start;
+}
+
+#sentieri .about-image {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 150px;
+}
+
+#sentieri .about-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  display: block;
+}
+
+.sentieri-box::before,
+.sentieri-box::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #C79A2B;
+  margin: 8px auto;
+  width: 40%;
+}
+
+#sentieri .button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 26px;
+  background: transparent;
+  border: 1px solid #C79A2B;
+  color: #C79A2B;
+  text-decoration: none;       /* 👈 via sottolineatura */
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+#sentieri .button:hover {
+  background: #C79A2B;
+  color: #fff;
+}
+
+#sentieri .button {
+  display: inline-block;
+  margin: 40px auto 0 auto;
+}
+
+#sentieri .about-text {
+  text-align: left;
+}
+
+#sentieri .about-text .button {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Responsive */
