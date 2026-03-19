@@ -24,4 +24,10 @@ Le mie candele in Paraffina di alta qualità sono un dono di Luce e Amore.
 
 Le diverse forme, dimensioni e colori
 creano un mondo di manufatti da scegliere
-o regalare per occasioni speciali:
+o regalare per occasioni speciali.
+
+<div class="poetic-separator">✧ ✦ ✧</div>
+
+[...] “In ogni candela, in ogni fiamma porto la mia energia, la mia intenzione, la mia parte di cuore che metto in ogni mia creazione.”
+
+citazione ---> pagina 19 raggis
