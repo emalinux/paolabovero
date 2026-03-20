@@ -34,10 +34,25 @@
 
 
 {{ if .Content }}
-<section class="book-editorial-content">
-  <div class="book-text-container">
-    {{ .Content }}
-  </div>
+<section class="book-editorial-content sentieri-page">
+
+    <div class="sentieri-grid">
+
+      <div class="sentieri-text">
+        {{ .Content }}
+      </div>
+
+      <div class="sentieri-images">
+        <img src="/img/sentieri2.jpeg" alt="Percorsi">
+
+        {{ with .Params.image2 }}
+          <img src="{{ . }}" alt="">
+        {{ end }}
+
+      </div>
+
+    </div>
+
 </section>
 {{ end }}
 

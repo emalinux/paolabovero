@@ -1,0 +1,59 @@
+<h1 style="color:red">QUESTO È IL LAYOUT NUOVO</h1>
+{{ define "main" }}
+
+<section class="sentieri-page">
+
+  <div class="container">
+
+    <div class="sentieri-header">
+      <h1 class="sentieri-title">{{ .Title }}</h1>
+      <p class="fu-subtitle">{{ .Params.tagline }}</p>
+    </div>
+
+    <div class="sentieri-grid">
+
+      <div class="sentieri-text">
+        {{ .Content }}
+      </div>
+    
+      <div class="sentieri-images">
+        <img src="/img/percorsi.jpg" alt="Percorsi">
+      </div>
+    
+    </div>
+
+    <div class="poetic-separator">✧ ✦ ✧</div>
+
+    <section class="book-availability">
+
+      <p class="availability-label">Disponibile su</p>
+
+      <div class="book-buttons">
+
+        {{ with .Params.amazon }}
+          <a href="{{ . }}" target="_blank" class="book-btn">
+            Amazon
+          </a>
+        {{ end }}
+
+        {{ with .Params.giardino }}
+          <a href="{{ . }}" target="_blank" class="book-btn">
+            Il Giardino dei Libri
+          </a>
+        {{ end }}
+
+      </div>
+
+      <div class="book-contact">
+        <a href="/contatti/" class="contact-link">
+          Per informazioni →
+        </a>
+      </div>
+
+    </section>
+
+  </div>
+
+</section>
+
+{{ end }}

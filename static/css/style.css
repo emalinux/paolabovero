@@ -496,6 +496,10 @@ html {
   color: inherit;
 }
 
+.book-editorial-content .container {
+  max-width: 1200px;
+}
+
 /* CANDELE MODERNE */
 
 .candele-grid {
@@ -1163,6 +1167,41 @@ html {
   margin-bottom: 18px;
 }
 
+/* ===== LAYOUT 50/50 SINGLE LIBRO ===== */
+
+.book-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.book-text {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #4b4030;
+}
+
+.book-text p {
+  margin-bottom: 18px;
+}
+
+.book-side-image img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.12);
+}
+
+.book-editorial-content {
+  padding: 0 5%;
+}
+
+.book-editorial-content .sentieri-grid {
+  max-width: 95%x;
+  margin: 0 auto;
+}
+
 
 /* DISPONIBILITÀ */
 
@@ -1498,62 +1537,69 @@ html {
   opacity: 0.95;
 }
 
-/* PAGINA FU AUTONOMA */
+/* ===== PAGINA FU AUTONOMA ===== */
 
 #fu-page {
-  padding: 100px 0;
+  padding: 80px 0 100px 0;
 }
 
 /* header */
 .fu-header {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .fu-header h1 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .fu-subtitle {
-  font-size: 1rem;
+  font-size: 0.95rem;
   opacity: 0.7;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
-/* layout 2 colonne */
+/* layout vero 50/50 */
 .fu-layout {
-  max-width: 1200px;
-  margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 100px;
-  align-items: start;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;   /* SOLDATINI */
 }
 
 /* colonna testo */
 .fu-content {
-  font-size: 1.15rem;
-  line-height: 2;
+  font-size: 1.1rem;
+  line-height: 1.9;
 }
 
-/* paragrafi augurio */
+/* paragrafi */
+.fu-content p {
+  margin-bottom: 22px;
+}
+
+/* auguri */
 .fu-augurio {
   margin-top: 30px;
 }
 
 /* citazione libro */
 .book-ref {
-  margin-top: 50px;
-  font-size: 0.9rem;
+  margin-top: 40px;
+  font-size: 0.85rem;
   opacity: 0.6;
-  text-align: left;
 }
 
-/* immagine */
+/* colonna immagine */
+.fu-image {
+  display: flex;
+  justify-content: center;
+}
+
 .fu-image img {
-  width: 100%;
-  border-radius: 18px;
-  box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+  width: 100%;              
+  border-radius: 16px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.12);
 }

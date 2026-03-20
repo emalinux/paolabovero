@@ -2,6 +2,7 @@
 title: "«Raggi. Diario di Luce»"
 subtitle: ""
 cover: "/img/raggi1.jpg"
+image2: "/img/sentieri1.jpeg"
 tagline: "Questa luce mi ha dato e mi dà, ogni giorno, un inafferrabile e indescrivibile senso di pienezza."
 amazon: "https://www.amazon.it/LIBRO-RAGGI-DIARIO-PAOLA-BOVERO/dp/8897428754"
 giardino: "https://www.ilgiardinodeilibri.it/libri/__raggi-diario-di-luce-paola-bovero-libro.php"
@@ -26,6 +27,6 @@ o qualsiasi altra Luce;
 
 Sia cioè, proprio quella Luce più in risonanza con ciascuno di noi: affinchè, ogni giorno, con questa Luce, ciascuno di noi, possa essere nuova Luce."
 
-citazione ----> pag 67 raggi di luce 
-
-qui inseriamo le foto del libro vecchio sito mare .
+<div class="book-ref">
+(p. 67, P. Bovero, <em>Raggi – Diario di Luce</em>)
+</div>
