@@ -2,10 +2,12 @@
 title = 'Sentieri'
 +++
 
+“Biografie dell’Anima” è un percorso che si sviluppa nell’arco temporale di un mese, proprio come è stato per me l’esperienza che ha dato vita a “Raggi – Diario di Luce”.
 
+Il lavoro, che unisce parole, luce e ascolto, si articola in quattro incontri, “Sentieri”, in presenza oppure online, della durata di un’ora ciascuno, organizzati con cadenza settimanale.
 Qui aggiungo parte A fino a settimanale ------> sentieri.jpeg
 
-separatore 
+<div class="poetic-separator">✧ ✦ ✧</div>
 
 Ogni sentiero nasce dall'ascolto e anche da passi silenziosi.
 
@@ -27,15 +29,17 @@ ogni silenzio una rivelazione.
 C’è un tempo per comprendere
 e un tempo per sentire.
 
-separatore 
+<div class="poetic-separator">✧ ✦ ✧</div>
 
-parte B
+Attraverso l’ascolto e la condivisione offro uno spazio semplice e autentico, dove le emozioni possono essere accolte e riconosciute senza giudizio. La luce delle mie candele, simboli di presenza, trasformazione e consapevolezza, accompagna questo ascolto.
 
-fino a la loro luce
+Raccolgo le storie interiori delle persone e le trasformo in un racconto, “Biografie dell’Anima”, che custodisce la loro Luce.
 
-separatore 
-
-testo in stamoatello "dove una storia... ------> foto sentieri in home .jpeg
+<div class="poetic-separator">✧ ✦ ✧</div>
 
 
-Queste immagini invece vanno poi in pagina dedicata di raggi  -----> http://localhost:1313/libri/raggi-di-luce/
+<div class="sentieri-box top-box">
+    DOVE UNA STORIA<br>
+    VIENE ASCOLTATA<br>
+    NASCE UNA LUCE
+  </div>

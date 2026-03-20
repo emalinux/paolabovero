@@ -43,12 +43,9 @@
       </div>
 
       <div class="sentieri-images">
-        <img src="/img/sentieri2.jpeg" alt="Percorsi">
-
-        {{ with .Params.image2 }}
+        {{ range .Params.images }}
           <img src="{{ . }}" alt="">
         {{ end }}
-
       </div>
 
     </div>

@@ -2,7 +2,9 @@
 title: "Fu - Il fiorellino dell’arcobaleno"
 subtitle: ""
 cover: "/img/fu.png"
-image2: "/img/galleria/12.jpeg"
+images:
+  - "/img/percorsi.jpg"
+  - "/img/galleria/12.jpeg"
 tagline: "Una storia che racconta l’unione di quattro cuori."
 intro: "La favola \"Fu, il fiorellino dell’arcobaleno\" è accompagnata da una dedica, una prefazione e una conclusione che trattano della ricchezza del mondo dell’adozione."
 amazon: "#"
