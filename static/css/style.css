@@ -336,9 +336,9 @@ html {
 
 .manifesto-images {
   display: flex;
-  margin-top: 60px;
+  margin-top: 40px;
   flex-direction: column;
-  gap: 40px;
+  gap: 100px;
 }
 
 .manifesto-images img {
@@ -1415,7 +1415,7 @@ html {
 #sentieri .about-image {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
   margin-top: 150px;
 }
 
@@ -1433,7 +1433,7 @@ html {
   height: 1px;
   background: #C79A2B;
   margin: 8px auto;
-  width: 40%;
+  width: 20%;
 }
 
 #sentieri .button {
@@ -1496,4 +1496,64 @@ html {
 .editorial-inline-image.final-image img {
   max-width: 65%;
   opacity: 0.95;
+}
+
+/* PAGINA FU AUTONOMA */
+
+#fu-page {
+  padding: 100px 0;
+}
+
+/* header */
+.fu-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.fu-header h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.fu-subtitle {
+  font-size: 1rem;
+  opacity: 0.7;
+  letter-spacing: 2px;
+}
+
+/* layout 2 colonne */
+.fu-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 100px;
+  align-items: start;
+}
+
+/* colonna testo */
+.fu-content {
+  font-size: 1.15rem;
+  line-height: 2;
+}
+
+/* paragrafi augurio */
+.fu-augurio {
+  margin-top: 30px;
+}
+
+/* citazione libro */
+.book-ref {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  text-align: left;
+}
+
+/* immagine */
+.fu-image img {
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.15);
 }
