@@ -13,6 +13,10 @@ giardino: "https://www.ilgiardinodeilibri.it/libri/__raggi-diario-di-luce-paola-
 
 Il mio Diario è creato dal collage di post-it, appunti e pensieri di Luce: è un racconto “da cuore a cuore”, fatto con il lettore, per esplorare storie che parlano di momenti di grazia, intuizioni improvvise e bagliori di consapevolezza.
 
+E' un'opera, di semplicità e di verità, che ho scritto volontariamente a mano per trasmettere quanto ho vissuto intensamente.
+
+Ogni emozione è trascritta su carta e condivisa con gioia.
+
 L’intento è quello di condividere e “contagiare” con una luminosa esperienza vissuta, che cambia la vita.
 
 " Il mio angurio é che la lettura di questo diario possa far venire sempre in ciascuno di noi la "voglia di Luce",
@@ -30,5 +34,5 @@ o qualsiasi altra Luce;
 Sia cioè, proprio quella Luce più in risonanza con ciascuno di noi: affinchè, ogni giorno, con questa Luce, ciascuno di noi, possa essere nuova Luce."
 
 <div class="book-ref">
-(p. 67, P. Bovero, <em>Raggi – Diario di Luce</em>)
+(p. 67, P. Bovero, <em>Raggi. Diario di Luce</em>)
 </div>
