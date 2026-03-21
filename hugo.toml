@@ -44,7 +44,7 @@ disableKinds = ["taxonomy", "term"]
     weight = 1
 
   [[menu.main]]
-    name = "Soia"
+    name = "Cera di soia"
     url = "/candele/soia/"
     parent = "candele"
     weight = 2

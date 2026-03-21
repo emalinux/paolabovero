@@ -15,11 +15,19 @@ gallery = [
 ]
 +++
 
-La cera bianco-latte, candida e pura,  
+
+<div class="sentieri-box bottom-box">
+
+La cera bianco latte, candida e pura,
 luminosa e morbida è custode di Luce e armonia.
+
+  <span class="mini-divider"></span>
+
+</div>
 
 <div class="poetic-separator">✧ ✦ ✧</div>
 
-[...] “Laddove sono, ovunque siano, esse portano luce: questa è l’intenzione di ogni mia candela. Luce creata per essere diffusa, osservata, trasformata in nuova luce.”
+[ ... ] “Laddove sono, ovunque siano, esse portano luce: questa è l’intenzione di ogni mia candela. Luce creata per essere diffusa, osservata, trasformata in nuova luce.” [ ... ]
 
-citazione ----> pag 21 raggi 
+
+<div class="book-ref">(p. 21, P. Bovero, Raggi. Diario di Luce)</div>

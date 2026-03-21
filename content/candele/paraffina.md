@@ -20,14 +20,21 @@ gallery = [
 ]
 +++
 
-Le mie candele in Paraffina di alta qualità sono un dono di Luce e Amore. 
+<div class="sentieri-box bottom-box">
 
-Le diverse forme, dimensioni e colori
-creano un mondo di manufatti da scegliere
-o regalare per occasioni speciali.
+  Le mie candele in Paraffina di alta qualità sono un dono di Luce e Amore.
+
+  <span class="mini-divider"></span>
+
+  Le diverse forme, dimensioni e colori
+  creano un mondo di manufatti da scegliere
+  o regalare per occasioni speciali.
+
+</div>
 
 <div class="poetic-separator">✧ ✦ ✧</div>
 
-[...] “In ogni candela, in ogni fiamma porto la mia energia, la mia intenzione, la mia parte di cuore che metto in ogni mia creazione.”
+[ ... ] “ In ogni candela, in ogni fiamma porto la mia energia, la mia intenzione, la mia parte di cuore che metto in ogni mia creazione.” [ ... ]
 
-citazione ---> pagina 19 raggis
+
+<div class="book-ref">(p. 19, P. Bovero, Raggi. Diario di Luce)</div>

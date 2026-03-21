@@ -32,7 +32,7 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
+/*
 .section-title-large {
   font-family: "Indie Flower", cursive;
   font-size: 2.2rem;
@@ -64,6 +64,7 @@ html {
   text-align: left;
   padding-left: 10%;
 }
+*/
 
 .section:first-of-type {
   padding-top: 60px;
@@ -75,7 +76,7 @@ html {
 }
 
 .editorial-image img {
-  max-width: 220px;
+  max-width: 420px;
   width: 100%;
   height: auto;
   border-radius: 8px;
@@ -319,7 +320,7 @@ html {
 }
 
 /* MANIFESTO */
-
+/*
 .about-grid {
   display: grid;
   grid-template-columns: 460px 1fr;
@@ -374,6 +375,7 @@ html {
   max-width: 600px;
   line-height: 1.6;
 }
+*/ 
 
 /* CARD */
 
@@ -567,14 +569,6 @@ html {
 .candela-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 15px 35px rgba(0,0,0,0.08);
-}
-
-/* SENTIERI */
-
-#sentieri .about-image img {
-  max-width: 480px;
-  height: 480px;
-  object-fit: cover;
 }
 
 /* SECTION DIVIDER */
@@ -1424,7 +1418,7 @@ html {
 }
 
 .sentieri-images img {
-  width: 100%;
+  width: 91%;
   height: auto;
   border-radius: 8px;
   display: block;
@@ -1507,6 +1501,14 @@ html {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* SENTIERI */
+
+#sentieri .about-image img {
+  max-width: 480px;
+  height: 480px;
+  object-fit: cover;
 }
 
 /* Responsive */
@@ -1603,3 +1605,249 @@ html {
   border-radius: 16px;
   box-shadow: 0 25px 50px rgba(0,0,0,0.12);
 }
+
+/* FIX CONTENITORE FU */
+
+.book-editorial-content {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+.book-editorial-content .sentieri-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+/* =========================
+   1. RESET + BASE
+========================= */
+
+/* =========================
+   2. DESIGN TOKENS
+========================= */
+
+/* =========================
+   3. LAYOUT (container, grid)
+========================= */
+
+/* =========================
+   4. TYPOGRAPHY
+========================= */
+
+.editorial-title {
+  font-family: "Indie Flower", cursive;
+  font-size: 2.6rem;
+  color: #C79A2B;
+  margin-bottom: 25px;
+  text-shadow: 0 0 10px rgba(199,154,43,0.25);
+  text-align: center;
+}
+
+.title-handwritten {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.4rem;
+  color: #C79A2B;
+  text-align: center;
+}
+
+.title-left {
+  text-align: left;
+  padding-left: 10%;
+}
+/*
+.title-lg {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #C79A2B;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.title-side {
+  text-align: left;
+}
+*/
+.subtitle {
+  font-family: 'Indie Flower', cursive !important;
+  text-align: center !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 1px !important;
+  color: var(--color-muted) !important;
+}
+
+/* =========================
+   5. COMPONENTS
+========================= */
+
+.separator {
+  text-align: center;
+  color: var(--color-accent);
+  letter-spacing: 6px;
+  margin: var(--space-sm) 0;
+}
+
+.bottom-box {
+  text-align: center;
+  max-width: 420px;
+  margin: 30px auto;
+  font-family: 'Indie Flower', cursive;
+  color: #C79A2B;
+  line-height: 1.6;
+   text-wrap: balance;
+}
+
+.mini-divider {
+  display: block;
+  width: 30px;
+  height: 1px;
+  background: #C79A2B;
+  margin: 15px auto;
+  opacity: 0.6;
+  position: relative;
+}
+
+.mini-divider::after {
+  content: "✧";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  color: #C79A2B;
+}
+
+/* =========================
+   6. SECTIONS
+========================= */
+
+.section-split {
+  display: grid;
+  grid-template-columns: 480px 1fr;
+  gap: 80px;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .section-split {
+    grid-template-columns: 1fr;
+  }
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.image-column img {
+  width: 95%;
+  margin: 0 auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.img-tall {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center;
+}
+
+section {
+  scroll-margin-top: 100px; /* altezza header */
+}
+
+/* manifesto */
+
+.manifesto-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: var(--color-muted);
+}
+
+.manifesto-text {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--color-text);
+   margin-bottom: 16px;
+   text-align: left;
+  max-width: 620px;
+}
+
+.manifesto-claim {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #C79A2B;
+  font-weight: 600;
+}
+
+.image-offset-sm {
+  margin-top: 20px;
+}
+
+.image-offset-md {
+  margin-top: 40px;
+}
+
+.image-offset-lg {
+  margin-top: 80px;
+}
+
+.img-uniform {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.text-column {
+  max-width: 620px;
+}
+
+.manifesto-text {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.manifesto-text p {
+  margin-bottom: 18px;
+}
+
+
+
+/* candele */
+/* libri */
+
+.book-editorial-content .sentieri-grid {
+  display: grid !important;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 90px;
+  align-items: start;
+}
+
+.book-editorial-content .sentieri-images {
+  width: 100%;
+}
+
+.book-editorial-content .sentieri-images img {
+  width: 100%;
+}
+
+/* sentieri */
+

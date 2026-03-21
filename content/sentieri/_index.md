@@ -2,10 +2,9 @@
 title = 'Sentieri'
 +++
 
-“Biografie dell’Anima” è un percorso che si sviluppa nell’arco temporale di un mese, proprio come è stato per me l’esperienza che ha dato vita a “Raggi – Diario di Luce”.
+**“Biografie dell’Anima”** è un percorso che si sviluppa nell’arco temporale di un mese, proprio come è stato per me l’esperienza che ha dato vita a “ Raggi. Diario di Luce ”.
 
 Il lavoro, che unisce parole, luce e ascolto, si articola in quattro incontri, “Sentieri”, in presenza oppure online, della durata di un’ora ciascuno, organizzati con cadenza settimanale.
-Qui aggiungo parte A fino a settimanale ------> sentieri.jpeg
 
 <div class="poetic-separator">✧ ✦ ✧</div>
 
@@ -43,3 +42,5 @@ Raccolgo le storie interiori delle persone e le trasformo in un racconto, “Bio
     VIENE ASCOLTATA<br>
     NASCE UNA LUCE
   </div>
+
+<div class="poetic-separator">✧ ✦ ✧</div>  
