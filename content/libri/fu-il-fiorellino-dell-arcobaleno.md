@@ -1,5 +1,5 @@
 ---
-title: "Fu. Il fiorellino dell’arcobaleno"
+title: "« Fu. Il fiorellino dell’arcobaleno »"
 subtitle: ""
 cover: "/img/fu.png"
 images:
@@ -32,3 +32,5 @@ Il mio augurio è che ogni papà, biologico o adottivo che sia, possa riconoscer
 
 <div class="book-ref">
 (dalla quarta di copertina, P. Bovero, <em>Fu. Il fiorellino dell'arcobaleno</em>)
+</div>
+

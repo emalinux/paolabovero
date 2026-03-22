@@ -77,3 +77,15 @@ Da quel momento in poi, tutto è andato in quella direzione.  [ … ] "
 </div>
 
 <div class="poetic-separator">✧ ✦ ✧</div>
+
+<div class="sentieri-cta">
+  <a href="/contatti/" class="cta-main">
+    “Scrivimi, per iniziare il tuo cammino”
+  </a>
+</div>
+
+<div class="sentieri-cta">
+  <a href="/#libri" class="cta-main">
+    “Vai alla sezione dedicata ai mei Libri”
+  </a>
+</div>

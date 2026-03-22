@@ -1,10 +1,10 @@
 ---
-title: "«Raggi. Diario di Luce»"
+title: "« Raggi. Diario di Luce »"
 subtitle: ""
 cover: "/img/raggi1.jpg"
 images:
   - "/img/sentieri2.jpeg"
-  - "/img/sentieri1.jpeg"
+  - "/img/librocuore.avif"
 tagline: "Questa luce mi ha dato e mi dà, ogni giorno, un inafferrabile e indescrivibile senso di pienezza."
 amazon: "https://www.amazon.it/LIBRO-RAGGI-DIARIO-PAOLA-BOVERO/dp/8897428754"
 giardino: "https://www.ilgiardinodeilibri.it/libri/__raggi-diario-di-luce-paola-bovero-libro.php"

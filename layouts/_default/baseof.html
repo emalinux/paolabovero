@@ -107,5 +107,27 @@
   <img id="lightbox-img" class="lightbox-img" src="">
   <span class="nav-arrow right">›</span>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("backToTop");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  });
+
+  btn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+});
+</script>
+<button id="backToTop" aria-label="Torna su">↑</button>
 </body>
 </html>

@@ -34,15 +34,15 @@
 
 
 {{ if .Content }}
-<section class="book-editorial-content sentieri-page">
+<section class="book-editorial-content">
 
-    <div class="sentieri-grid">
+    <div class="book-grid">
 
-      <div class="sentieri-text">
+      <div class="book-text">
         {{ .Content }}
       </div>
 
-      <div class="sentieri-images">
+      <div class="book-images">
         {{ range .Params.images }}
           <img src="{{ . }}" alt="">
         {{ end }}

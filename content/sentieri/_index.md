@@ -2,7 +2,7 @@
 title = 'Sentieri'
 +++
 
-**“Biografie dell’Anima”** è un percorso che si sviluppa nell’arco temporale di un mese, proprio come è stato per me l’esperienza che ha dato vita a “ Raggi. Diario di Luce ”.
+**“Biografie dell’Anima”** è un percorso che si sviluppa nell’arco temporale di un mese, proprio come è stato per me l’esperienza che ha dato vita a <a href="/libri/raggi-di-luce/">"Raggi. Diario di Luce"</a>.
 
 Il lavoro, che unisce parole, luce e ascolto, si articola in quattro incontri, “Sentieri”, in presenza oppure online, della durata di un’ora ciascuno, organizzati con cadenza settimanale.
 
@@ -43,4 +43,23 @@ Raccolgo le storie interiori delle persone e le trasformo in un racconto, “Bio
     NASCE UNA LUCE
   </div>
 
-<div class="poetic-separator">✧ ✦ ✧</div>  
+<div class="poetic-separator">✧ ✦ ✧</div>
+
+<div class="sentieri-cta">
+  <a href="/contatti/" class="cta-main">
+    “Scrivimi, per iniziare il tuo cammino”
+  </a>
+</div>
+
+<div class="sentieri-cta">
+  <a href="/#libri" class="cta-main">
+    “Vai alla sezione dedicata ai mei Libri”
+  </a>
+</div>
+
+<div class="sentieri-box top-box">
+    DOVE UNA STORIA<br>
+    VIENE ASCOLTATA<br>
+    NASCE UNA LUCE <BR>
+    GRAZIE, PAOLA BOVERO
+  </div>
