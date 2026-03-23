@@ -80,7 +80,7 @@ paolabovero/
 
 ## 🧑‍💻 Autore
 
-Realizzato con ❤️ da [Manuel – Assembler Computer](https://studio.assemblercomputer.net/)
+Realizzato con ❤️ da [Manuel – Assembler Studio](https://studio.assemblercomputer.net/)
 
 Contatti diretti? [📧 emalinux77@gmail.com](mailto:emalinux77@gmail.com)
 
