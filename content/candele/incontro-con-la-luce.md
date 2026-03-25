@@ -86,6 +86,6 @@ Da quel momento in poi, tutto è andato in quella direzione.  [ … ] "
 
 <div class="sentieri-cta">
   <a href="/#libri" class="cta-main">
-    “Vai alla sezione dedicata ai mei Libri”
+    ““Esplora la sezione dedicata ai miei Libri””
   </a>
 </div>

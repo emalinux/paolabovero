@@ -25,7 +25,7 @@ gallery = [
 
 <div class="poetic-separator">✧ ✦ ✧</div>
 
-[ ... ] "Mi affascina e mi dà molta gioia pensare che le candele da me create vadano di qua e di là, di casa in casa, magari offerte per andare in altre case ancora, forse in altre città, forse in altri paesi.” [ ... ]
+" [ ... ] Mi affascina e mi dà molta gioia pensare che le candele da me create vadano di qua e di là, di casa in casa, magari offerte per andare in altre case ancora, forse in altre città, forse in altri paesi. [ ... ] "
 
 
 <div class="book-ref">(p. 21, P. Bovero, Raggi. Diario di Luce)</div>

@@ -1,5 +1,5 @@
 ---
-title: "« Fu. Il fiorellino dell’arcobaleno »"
+title: "« Fu, Il fiorellino dell’arcobaleno »"
 subtitle: ""
 cover: "/img/fuok.jpeg"
 images:

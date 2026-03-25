@@ -27,7 +27,7 @@ luminosa e morbida è custode di Luce e armonia.
 
 <div class="poetic-separator">✧ ✦ ✧</div>
 
-[ ... ] “Laddove sono, ovunque siano, esse portano luce: questa è l’intenzione di ogni mia candela. Luce creata per essere diffusa, osservata, trasformata in nuova luce.” [ ... ]
+" [ ... ] Laddove sono, ovunque siano, esse portano luce: questa è l’intenzione di ogni mia candela. Luce creata per essere diffusa, osservata, trasformata in nuova luce. [ ... ] "
 
 
 <div class="book-ref">(p. 21, P. Bovero, Raggi. Diario di Luce)</div>

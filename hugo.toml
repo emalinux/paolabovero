@@ -62,13 +62,13 @@ disableKinds = ["taxonomy", "term"]
     identifier = "libri"
 
   [[menu.main]]
-    name = "Raggi – Diario di Luce"
+    name = "Raggi. Diario di Luce"
     url = "/libri/raggi-di-luce/"
     parent = "libri"
     weight = 1
 
   [[menu.main]]
-    name = "Fu – Il fiorellino dell’arcobaleno"
+    name = "Fu, Il fiorellino dell’arcobaleno"
     url = "/libri/fu-il-fiorellino-dell-arcobaleno/"
     parent = "libri"
     weight = 2  

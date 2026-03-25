@@ -34,7 +34,7 @@ gallery = [
 
 <div class="poetic-separator">✧ ✦ ✧</div>
 
-[ ... ] “ In ogni candela, in ogni fiamma porto la mia energia, la mia intenzione, la mia parte di cuore che metto in ogni mia creazione.” [ ... ]
+" [ ... ]  In ogni candela, in ogni fiamma porto la mia energia, la mia intenzione, la mia parte di cuore che metto in ogni mia creazione. [ ... ] "
 
 
 <div class="book-ref">(p. 19, P. Bovero, Raggi. Diario di Luce)</div>

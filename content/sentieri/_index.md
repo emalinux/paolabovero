@@ -53,7 +53,7 @@ Raccolgo le storie interiori delle persone e le trasformo in un racconto, “Bio
 
 <div class="sentieri-cta">
   <a href="/#libri" class="cta-main">
-    “Vai alla sezione dedicata ai mei Libri”
+    “Esplora la sezione dedicata ai miei Libri”
   </a>
 </div>
 
