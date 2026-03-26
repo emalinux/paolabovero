@@ -13,7 +13,7 @@ giardino: "https://www.ilgiardinodeilibri.it/libri/__raggi-diario-di-luce-paola-
 
 Il mio Diario è creato dal collage di post-it, appunti e pensieri di Luce: è un racconto “da cuore a cuore”, fatto con il lettore, per esplorare storie che parlano di momenti di grazia, intuizioni improvvise e bagliori di consapevolezza.
 
-E' un'opera, di semplicità e di verità, che ho scritto volontariamente a mano per trasmettere quanto ho vissuto intensamente.
+E' un'opera di semplicità e di verità, che ho scritto volontariamente a mano per trasmettere quanto ho vissuto intensamente.
 
 Ogni emozione è trascritta su carta e condivisa con gioia.
 
