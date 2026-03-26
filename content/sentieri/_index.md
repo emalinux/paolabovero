@@ -4,7 +4,7 @@ title = 'Sentieri'
 
 **“Biografie dell’Anima”** è un percorso che si sviluppa nell’arco temporale di un mese, proprio come è stato per me l’esperienza che ha dato vita a <a href="/libri/raggi-di-luce/">"Raggi. Diario di Luce"</a>.
 
-Il lavoro, che unisce parole, luce e ascolto, si articola in quattro incontri, “Sentieri”, in presenza oppure online, della durata di un’ora ciascuno, organizzati con cadenza settimanale.
+Il lavoro, che unisce parole, luce e ascolto, si articola in quattro incontri, “Sentieri”, in presenza oppure online, della durata di un’ora ciascuno, organizzati con frequenza settimanale.
 
 <div class="poetic-separator">✧ ✦ ✧</div>
 
