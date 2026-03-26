@@ -25,12 +25,12 @@ Il mio augurio è che ogni mamma, biologica o adottiva che sia, possa riconoscer
 Il mio augurio è che ogni papà, biologico o adottivo che sia, possa riconoscersi come guida e modello. [ ... ]
 
 <div class="book-ref">
-(dalla seconda di copertina, P. Bovero, <em>Fu. Il fiorellino dell'arcobaleno</em>)
+(dalla seconda di copertina, P. Bovero, <em>Fu, Il fiorellino dell'arcobaleno</em>)
 </div>
 
 [ ... ] Accoglienza, Autenticità, Gioia, Tolleranza, fraternità, Empatia, Ascolto, Aiuto, Resilienza sono alcune tinte dell' Universo dell' adozione, un cammino che permette l' Unione di quattro cuori: ciascuno, a proprio modo, contribuisce all 'incantevole creazione di un **RICCO MONDO**. [ ... ]
 
 <div class="book-ref">
-(dalla quarta di copertina, P. Bovero, <em>Fu. Il fiorellino dell'arcobaleno</em>)
+(dalla quarta di copertina, P. Bovero, <em>Fu, Il fiorellino dell'arcobaleno</em>)
 </div>
 
