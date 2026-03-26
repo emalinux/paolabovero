@@ -28,7 +28,7 @@ Il mio augurio è che ogni papà, biologico o adottivo che sia, possa riconoscer
 (dalla seconda di copertina, P. Bovero, <em>Fu, Il fiorellino dell'arcobaleno</em>)
 </div>
 
-[ ... ] Accoglienza, Autenticità, Gioia, Tolleranza, fraternità, Empatia, Ascolto, Aiuto, Resilienza sono alcune tinte dell' Universo dell' adozione, un cammino che permette l' Unione di quattro cuori: ciascuno, a proprio modo, contribuisce all 'incantevole creazione di un **RICCO MONDO**. [ ... ]
+[ ... ] Accoglienza, Autenticità, Gioia, Tolleranza, Fraternità, Empatia, Ascolto, Aiuto, Resilienza sono alcune tinte dell' Universo dell' adozione, un cammino che permette l' Unione di quattro cuori: ciascuno, a proprio modo, contribuisce all 'incantevole creazione di un **RICCO MONDO**. [ ... ]
 
 <div class="book-ref">
 (dalla quarta di copertina, P. Bovero, <em>Fu, Il fiorellino dell'arcobaleno</em>)
