@@ -14,11 +14,11 @@ giardino: "#"
 
 Questa favola, il racconto di un’adozione, è quella che ho scritto, nel 2011, per mio figlio arrivato in Italia, nella nostra famiglia, un anno prima.
 
-Spontaneo è stato il desiderio di spiegare a lui, proveniente da un Paese con una lingua diversa, distantissima dalla nostra, la sua storia.
+Spontaneo è stato il desiderio di spiegare a lui, proveniente da un Paese con una lingua diversissima dalla nostra, la sua storia.
 
 Ho deciso, a quindici anni dalla sua creazione, di pubblicare questo scritto, innanzitutto come dono a Fuije, oggi ventenne, e come riflessione di quanto il mondo dell’adozione, nelle sue innumerevoli occasioni di gioia e di difficoltà, sia un universo da conoscere e condividere.
 
-[ ... ] Il mio augurio è che ogni bimbo adottivo, ogni bimbo adottato, possa riconoscersi come un Dono per i suoi genitori e possa avere la meravigliosa consapevolezza della sua unicità: **l’unione di quattro cuori.**
+[ ... ] Il mio augurio è che ogni bimba adottiva, ogni bimbo adottato, possa riconoscersi come un Dono per i suoi genitori e possa avere la meravigliosa consapevolezza della sua unicità: **l’unione di quattro cuori.**
 
 Il mio augurio è che ogni mamma, biologica o adottiva che sia, possa riconoscere il dono sacro di essere madre.
 
