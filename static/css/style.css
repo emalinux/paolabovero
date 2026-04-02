@@ -173,6 +173,23 @@ html {
   margin-bottom: 8px;    /* controlliamo lo spazio sotto l’H2 */
 }
 
+@media (max-width: 768px) {
+
+  .main-nav ul {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .main-nav a {
+    font-size: 1.05rem;
+  }
+
+  .site-header {
+    padding: 15px 0;
+  }
+
+}
+
 /* FRASE POETICA */
 
 .section-quote {
@@ -851,6 +868,19 @@ html {
   width: 1px;
   height: 80%;
   background: rgba(199, 154, 43, 0.35);
+}
+
+@media (max-width: 768px) {
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+
 }
 
 /* SCROLL */

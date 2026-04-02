@@ -1,7 +1,7 @@
 ---
 title: "« Fu, Il fiorellino dell’arcobaleno »"
 subtitle: ""
-cover: "/img/fuok.jpeg"
+cover: "/img/fu.jpeg"
 images:
   - "/img/percorsi.jpg"
   - "/img/galleria/12.jpeg"
