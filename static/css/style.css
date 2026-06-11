@@ -2176,3 +2176,260 @@ section {
 .manifesto-text a:hover {
   opacity: 0.7;
 }
+
+/* ================================
+   RESPONSIVE HEADER
+================================ */
+
+.hamburger {
+  display: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hamburger span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  margin: 5px 0;
+  background: #c89724;
+  border-radius: 999px;
+}
+
+@media (max-width: 768px) {
+
+  .main-nav.is-open {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .main-nav > ul {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 18px 20px;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background: #fffdf8;
+    border: 1px solid rgba(200, 151, 36, 0.25);
+    border-radius: 22px;
+  }
+
+  .main-nav li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-nav a {
+    display: block;
+    padding: 10px 12px;
+    font-size: 1.08rem;
+    line-height: 1.25;
+    text-decoration: none;
+  }
+
+  .main-nav .has-dropdown > a {
+    color: #8f6b13;
+    font-weight: 600;
+  }
+
+  .main-nav .dropdown {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    margin: 4px auto 8px;
+    padding: 8px 0;
+
+    width: 88%;
+    background: rgba(200, 151, 36, 0.07);
+    border-radius: 16px;
+    box-shadow: none;
+  }
+
+  .main-nav .dropdown li {
+    text-align: center;
+  }
+
+  .main-nav .dropdown a {
+    padding: 6px 10px;
+    font-size: 0.95rem;
+    opacity: 0.9;
+  }
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* ================================
+   FIX DEFINITIVO MENU MOBILE
+================================ */
+
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: block !important;
+    margin: 8px auto 0;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background: #c89724;
+    border-radius: 999px;
+  }
+
+  .main-nav {
+    display: none !important;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .main-nav.is-open {
+    display: block !important;
+  }
+
+  .main-nav.is-open > ul {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 18px 20px;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background: #fffdf8;
+    border: 1px solid rgba(200, 151, 36, 0.25);
+    border-radius: 22px;
+  }
+
+  .main-nav li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-nav a {
+    display: block;
+    padding: 10px 12px;
+    font-size: 1.08rem;
+    line-height: 1.25;
+    text-decoration: none;
+  }
+
+  .main-nav .dropdown {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    margin: 4px auto 8px;
+    padding: 8px 0;
+
+    width: 88%;
+    background: rgba(200, 151, 36, 0.07);
+    border-radius: 16px;
+    box-shadow: none;
+  }
+}
+
+/* ================================
+   RESPONSIVE FOOTER
+================================ */
+
+@media (max-width: 900px) {
+
+  .site-footer {
+    padding: 48px 22px 28px;
+    text-align: center;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+  }
+
+  .footer-col {
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .footer-brand h3,
+  .footer-col h4 {
+    text-align: center;
+  }
+
+  .footer-logo {
+    display: block;
+    margin: 22px auto 0;
+    max-width: 120px;
+    height: auto;
+  }
+
+  .footer-links-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .footer-links-left,
+  .footer-links-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .footer-links-grid a {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-mail {
+    word-break: break-word;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .social-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    margin-top: 36px;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .footer-signature {
+    margin-top: 12px;
+  }
+}
